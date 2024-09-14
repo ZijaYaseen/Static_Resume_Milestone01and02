@@ -232,15 +232,15 @@ body {
     }
     
     .right-section h2 {
-        font-size: 12px; /* Adjust subheading size */
+        font-size: 11px; /* Adjust subheading size */
     }
 
     .contact-details h3, .skills h3 {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .contact-details p , .skills li, .profile li, .experience li, .education li , .profile p {
-        font-size: 8px;
+        font-size: 7px;
     }
 
     .profile h3, .experience h3, .education h3 {
