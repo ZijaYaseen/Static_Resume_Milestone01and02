@@ -223,8 +223,9 @@ body {
     }
 
     .profile-pic {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
+        margin-bottom: 0;
     }
     
     .right-section h1 {
