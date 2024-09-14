@@ -231,6 +231,7 @@ body {
     
     .right-section h1 {
         font-size: 27px; /* Slightly smaller font for heading */
+        margin-bottom: 3px;
     }
     
     .right-section h2 {
