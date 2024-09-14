@@ -231,13 +231,13 @@ body {
     
     .right-section h1 {
         font-size: 27px; /* Slightly smaller font for heading */
-        margin-top: 15px;
+        margin-top: 10px;
         margin-bottom: 0;
     }
     
     .right-section h2 {
         font-size: 11px; /* Adjust subheading size */
-        margin-bottom: 5px;
+        margin-bottom: 25px;
     }
 
     .contact-details h3, .skills h3 {
