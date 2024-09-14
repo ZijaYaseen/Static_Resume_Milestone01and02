@@ -235,6 +235,7 @@ body {
     
     .right-section h2 {
         font-size: 11px; /* Adjust subheading size */
+        margin-bottom: 0;
     }
 
     .contact-details h3, .skills h3 {
