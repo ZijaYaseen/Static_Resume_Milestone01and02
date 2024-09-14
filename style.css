@@ -226,7 +226,7 @@ body {
     .profile-pic {
         width: 80px;
         height: 80px;
-        margin-bottom: 0;
+        margin-bottom: 5px;
     }
     
     .right-section h1 {
@@ -235,7 +235,7 @@ body {
     
     .right-section h2 {
         font-size: 11px; /* Adjust subheading size */
-        margin-bottom: 0;
+        margin-bottom: 5px;
     }
 
     .contact-details h3, .skills h3 {
