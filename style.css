@@ -216,6 +216,7 @@ body {
     
     .left-section {
         width: 35%; /* Full width for both sections */
+        padding: 10px;
     }
 
     .right-section {
