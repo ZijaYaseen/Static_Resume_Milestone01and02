@@ -24,39 +24,41 @@ body {
     padding: 30px;
     text-align: center;
     max-width: 800px;
-    margin: 15px auto; /* Centered with spacing */
+    margin: 15px auto;
+    width: fit-content;
+    justify-content: space-between; 
 }
 
 /* Heading Style */
 .header h1 {
-    font-size: 3rem; /* Larger heading */
+    font-size: 3rem; 
     color: #ffffff;
     font: bold;
     margin-bottom: 15px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
     font-family:'Times New Roman', Times, serif
     
 }
 
 /* Paragraph Style */
 .header p {
-    font-size: 1.3rem; /* Slightly larger for readability */
-    color: #ffffff; /* Matching the theme */
+    font-size: 1.3rem;
+    color: #ffffff; 
     margin-top: 0;
     margin-bottom: 0;
-    letter-spacing: 0.5px; /* Better spacing between letters */
+    letter-spacing: 0.5px; 
 }
  /** Resume section*/
 
 .container {
     display: flex;
     margin: 0 auto;
-    width: 70%;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex-direction: row;
     border: 1px solid #ccc;
-    margin-bottom: 50px;
+    max-width : 1000px;
+    margin-bottom: 70px;
 }
 .left-section {
     width: 30%;
@@ -70,7 +72,6 @@ body {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
     border: 2px solid rgb(48, 48, 53);
 }
 .contact-details, .skills {
@@ -88,8 +89,8 @@ body {
 }
 
 .skills ul , .experience ul , .education ul{
-    list-style-type: disc; /* Use dots for bullet points */
-    padding-left: 20px; /* Indent the bullet points */
+    list-style-type: disc; 
+    padding-left: 20px; 
     margin-top: 5px;
 }
 
@@ -155,13 +156,16 @@ body {
 /* Media Queries for responsiveness */
 
 /* For tablets and smaller screens (max-width: 768px) */
-@media (max-width: 768px) {
+@media (max-width : 768px) {
+    .header h1 {
+        font-size: 2.4rem;
+    }
     .container {
         width: 95%;
     }
     
     .left-section {
-        width: 35%; /* Full width for both sections */
+        width: 35%;
     }
 
     .right-section {
@@ -169,8 +173,8 @@ body {
     }
 
     .profile-pic {
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
     }
 
     .right-section{
@@ -179,32 +183,27 @@ body {
     }
     
     .right-section h1 {
-        font-size: 30px; /* Slightly smaller font for heading */
+        font-size: 30px; 
     }
     
     .right-section h2 {
-        font-size: 13px; /* Adjust subheading size */
+        font-size: 13px;
     }
 
-    .contact-details h3, .skills h3 {
-        font-size: 12px;
+    .contact-details h3, .skills h3 , .profile h3, .experience h3, .education h3{
+        font-size: 15px;
     }
 
     .contact-details p , .skills li, .profile li, .experience li, .education li , .profile p {
         font-size: 10px;
     }
 
-    .profile h3, .experience h3, .education h3 {
-        font-size: 12px;
-    }
-
-
 }
 
 /* For small mobile screens (max-width: 480px) */
 @media (max-width: 480px) {
     .header h1 {
-        font-size: 2rem; /* Adjust header font size */
+        font-size: 2rem; 
     }
     .header p{
         font-size: 0.9rem;
@@ -215,7 +214,7 @@ body {
     }
     
     .left-section {
-        width: 35%; /* Full width for both sections */
+        width: 35%; 
         padding: 8px;
     }
 
@@ -230,13 +229,13 @@ body {
     }
     
     .right-section h1 {
-        font-size: 27px; /* Slightly smaller font for heading */
+        font-size: 27px;
         margin-top: 10px;
         margin-bottom: 0;
     }
     
     .right-section h2 {
-        font-size: 11px; /* Adjust subheading size */
+        font-size: 11px; 
         margin-bottom: 25px;
     }
 
